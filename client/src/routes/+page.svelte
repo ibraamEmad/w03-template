@@ -42,7 +42,7 @@
        {/each}
     {/if}
 
-    {#if meals.length === 0 && meals.length > 0}
+    {#if meals.length === 0}
         <div class="no-results">
             No menu items match your filters. Try changing your selection.
         </div>
